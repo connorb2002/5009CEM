@@ -1,7 +1,7 @@
 {
   "lint": {
     "files": {
-      "exclude": ["tmp/", "stats.js", "spa/", "public/"]
+      "exclude": ["tmp/", "stats.js", "spa/", "public/" "uat/"]
     },
     "rules": {
       "tags": ["recommended"],
@@ -83,7 +83,7 @@
   },
   "fmt": {
     "files": {
-      "exclude": ["tmp/", "stats.js"]
+      "exclude": ["tmp/", "stats.js" "workspace/"]
     },
     "options": {
       "useTabs": true,
